@@ -42,11 +42,43 @@
     .Content {
         margin-left: 25px;
     }
+
+    nav {
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 0px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: rgb(41, 118, 211);
+    }
+
+    nav .logo {
+        width: 80px;
+    }
+
+    nav ul li {
+    list-style: none;
+    display: inline-block;
+    }
+
+    nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+    font-size: 50px;
+    }
+
 </style>
 <body>
-    <div class="Header">
-        <h1 class="Heading">Havana</h1>
-    </div>
+    <nav>
+        <img src="../Home.png" alt="" class="logo">
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+        </ul>
+    </nav>
 
     <div class="Content">
         <h2>Historical Overview</h2>
